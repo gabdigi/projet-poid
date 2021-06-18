@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Graph</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="img/running-shoes.svg" alt="" width="30" height="24">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="programme.html">Programme</a>
+                            <a class="text-primary nav-link active" href="douleurs.html">Douleurs</a>
+                            <a class="nav-link" aria-current="page" href="resultat.html">Résultat</a> 
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container">
+            <div class="mx-auto mt-5 mb-5">
+                <h1>Douleurs</h1>
+            </div>
+        </section>
+        <section class="container">
+            <div class="mx-auto mt-5 mb-5">
+                <h2>Mes douleurs</h2>
+            </div>
+            <div class="mx-auto m-5 d-flex justify-content-center">
+                    <p>
+                       Selon wikipedia la douleur est une « expérience sensorielle et émotionnelle désagréable »1, une sensation subjective normalement liée à un message, un stimulus nociceptif transmis par le système nerveux. D'un point de vue biologique et évolutif, la douleur est une information permettant à la conscience de faire l'expérience de l'état de son corps pour pouvoir y répondre2. On distingue principalement deux types de douleur, aiguë et chronique :
+
+la douleur aiguë correspond à un « signal d'alarme »1 de l'organisme pour inciter à une réaction appropriée en cas de remise en cause de son intégrité physique, soit par un traumatisme (brûlure, plaie, choc), soit par une maladie ;
+la douleur chronique, l'installation durable de la douleur, est considérée comme une maladie qui peut notamment être le signe d'un dysfonctionnement des mécanismes de sa genèse, on parle alors de douleur neurogène ou psychogène.
+Cette sensation, de désagréable à insupportable, n'est pas nécessairement exprimée. Pour l'identifier chez autrui on peut faire le diagnostic de la douleur en se référant à des effets observables, par exemple les mouvements réflexes de retrait au niveau des membres et des extrémités pour les douleurs aiguës, ou des changements de comportement, d'attitudes et de positions du corps pour les douleurs chroniques.
+                        "source <a href="https://fr.wikipedia.org/wiki/Douleur">wikipedia</a>"
+                    </p>
+            </div>
+            <div>
+                <p>
+                    Lors de mes pratique de mon <a class="" href="programme.html">programme</a>, j'ai à plusieurs repirse des courbatures qui tout à fait normale mais aussi 
+                    une anomalie dans mais muscle. En effet j'ai beaucoup forcé sur mon corps que mes muscles on fait une infection.
+                    Sur une échelle de douleur numérique de 1 à 10 mon maximum est de 4, ce qui ma fait stopper net mon programme.
+                </p>
+            </div>
+            
+        </section class="container">
+        <section class="container">
+            <div class="mx-auto m-5 d-flex justify-content-center">
+                <canvas id="pain"></canvas>
+            </div>
+        </section>
+        
+        <!--<canvas id="poids" width="300px" height="auto"></canvas>-->
+        <script src="js/graph-pain.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>

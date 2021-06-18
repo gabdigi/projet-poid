@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Graph</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="img/running-shoes.svg" alt="" width="30" height="24">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">    
+                            <a class="nav-link" href="programme.html">Programme</a>
+                            <a class="nav-link" href="douleurs.html">Douleurs</a>
+                            <a class="text-primary nav-link active" aria-current="page" href="resultat.html">Résultat</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container">
+            <div class="mx-auto mt-5 mb-5">
+                <h1>Résultats</h1>
+            </div>
+        </section>
+        <section class="container">
+            <div class="mx-auto mt-5 mb-5">
+                <h2>Mes résultats</h2>
+            </div>
+            <div>
+                <p>
+                    Lors de mes pratique de mon programme, est d'une alimentation que j'ai appliqués qui est :
+                </p>
+                <ul>
+                    <li>
+                        Pas de boisson gazeux.
+                    </li>
+                    <li>
+                        Seulement 3 repas par jour et équilibrer avec le goûter.
+                    </li>
+                    <li>
+                        Manger lentement.
+                    </li>
+                    <li>
+                        se peser tous les matins.
+                    </li>
+                </ul>
+                <p>
+                    Même après l'arrêt de mon programme à cause de ma douleur, j'ai continué à appliquer la même alimentation.
+                </p>
+                
+               
+            </div>
+        </section>
+        <section class="container">
+            <h3>Sur les 4 mois</h3>
+                <div class="mx-auto m-5 d-flex justify-content-center">
+                    <canvas id="resultat"></canvas>
+                </div>
+        </section>
+        <section class="container">
+            <h3>Sur le mois de Mars</h3>
+                <div class="mx-auto m-5 d-flex justify-content-center">
+                    <canvas id="resultat-02"></canvas>
+                </div>
+        </section>
+        <section class="container">
+            <h3>Sur le mois de Avril</h3>
+                <div class="mx-auto m-5 d-flex justify-content-center">
+                    <canvas id="resultat-03"></canvas>
+                </div>
+        </section>
+        <section class="container">
+            <h3>Sur le mois de Mai</h3>
+                <div class="mx-auto m-5 d-flex justify-content-center">
+                    <canvas id="resultat-04"></canvas>
+                </div>
+        </section>
+        <section class="container">
+            <h3>Sur le mois de Juin</h3>
+                <div class="mx-auto m-5 d-flex justify-content-center">
+                    <canvas id="resultat-05"></canvas>
+                </div>
+        </section>
+       
+        
+        <!--<canvas id="poids" width="300px" height="auto"></canvas>-->
+        <script src="js/graph-resultat.js"></script>   
+       
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
