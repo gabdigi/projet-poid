@@ -69,7 +69,7 @@ function BarGraph(){
     //draw a bar chart
     const chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'line',
+        type: 'bar',
         // The data for our dataset
         data: {
             labels: yearCount,
@@ -78,7 +78,7 @@ function BarGraph(){
                 fill: true,
                 backgroundColor: 'rgb(252, 3, 3, 0.5)',
                 hoverBackgroundColor : '#fc0303',
-                borderWidth: 3,
+                borderWidth: 0,
                 barThickness: 8,
                 data: pains
             },
