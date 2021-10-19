@@ -87,13 +87,14 @@ async function LoadData(dataURL){
     //draw a bar chart
     const chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'bar',
+        type: 'line',
         // The data for our dataset
         data: {
             labels: labels,
             datasets: [{
-                label: axis,
-                backgroundColor: 'rgb(3, 7, 252, 1)',
+                label: 'axis',
+                fill: true,
+                backgroundColor: 'rgb(3, 7, 252, 0.5)',
                 hoverBackgroundColor : '#00fff2',
                 borderWidth: 0,
                 barThickness: 8,
