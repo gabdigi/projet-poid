@@ -1,3 +1,10 @@
-#poids {
-   
+
+p {
+    font-size: large;
 }
+
+p a {
+    color: rgb(255, 72, 0);
+    text-decoration: none;
+}
+
